@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background-image: linear-gradient( to right, #80cab3, #ffffff ); */
+    height: 1000px;
+}
+.main{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    min-height: 75px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    
+
+}
+.menu{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    
+}
+.login{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+   
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #ffffff;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none ;
+    cursor: pointer;
+    color: rgb(255, 247, 247);
+    /* font-weight: 500; */
+    /* color: #90c2b2; */
+    /* color: #189B6F; */
+}
+.register{
+    background-color: #189B6F;
+    width: 90px;
+    height: 28px;
+    text-align: center;
+    border-radius: 40px;
+    color: #ffffff;
+
+}
+.image1{
+    /* height: 200px; */
+    /* width: 200px; */
+    background-image: url(david-marcu-78A265wPiO4-unsplash.jpg);
+    
+    /* background-image: url(karsten-wurth-7BjhtdogU3A-unsplash.jpg); */
+    /* background-color: #222; */
+    /* background-blend-mode: hard-light; */
+    /* border: 1px solid red; */
+    height: 65%;
+    background-size: 100% 100%;
+    animation: Slider 10s infinite linear;
+    
+    
+      
+  
+}
+@keyframes Slider {
+    0%{
+        background-image: url(david-marcu-78A265wPiO4-unsplash.jpg);
+    
+    }
+    25%{
+        background-image: url(graham-holtshausen-63JKK67yGUE-unsplash.jpg);
+    }
+    75%{
+        background-image: url(karsten-wurth-7BjhtdogU3A-unsplash.jpg);
+    }
+
+}
+.search-bar{
+    margin-top: 22%;
+    margin-left: 27%;
+    width: 45%;
+    height: 50px;
+    border-radius: 0;
+    border-color: white;
+    outline: none;
+    padding: 20px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 8px center;
+    box-sizing: border-box;
+
+    /* box-shadow: 0 2px 4px rgba(218, 14, 14, 0.1); */
+}
+.search-bar::placeholder{
+    padding-left: 30px;
+}
+.search-bar:focus{
+    outline: none;
+    border-color: white;
+}
+.text-search{
+    color: white;
+    font-size:xx-large;
+    position: absolute;
+    top: 29%;
+    left: 25%;
+    letter-spacing: 7px;
+}
+.para-search{
+    color: white;
+    position: absolute;
+    top: 36%;
+    left: 29%;
+    letter-spacing: 1px;
+}
+.start-button{
+    position: absolute;
+    top: 48.1%;
+    right: 28.5%;
+    height: 35px;
+    width: 10%;
+    background-color:#189B6F;
+    border-color: #189B6F;
+    border-radius: 5px;
+    color: white;
+}
+
+.para-search1{
+    color:grey;
+    font-size:medium;
+    letter-spacing: 4px;
+}
+.para-search2{
+    color:grey;
+    font-size:small ;
+    line-height: 20px;
+}
+.text-search2{
+    font-size: x-large;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+.text-section{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+.img-sec-2{
+    height: 200px;
+    width: 200px;
+}
+.image-sec-2{
+    display: flex;
+    margin-top: 50px;
+    justify-content:space-around;
+}
+.text-image{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 35px;
+    text-align: center;
+
+}
+.dark{
+    color: grey;
+    font-weight: bold;
+}
+.light{
+    color: rgb(156, 153, 153);
+    font-size: small;
+}
+.btn-1{
+    width: 16%;
+    height: 4%;
+    margin-top: 40px;
+    margin-left: 41%;
+    color: white;
+    background-color: #189B6F;
+    border-color: #189B6F;
+    border-radius: 5px;
+}
+.section-3{
+    height: 50%;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(221, 218, 218);
+}
